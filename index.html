@@ -51,7 +51,7 @@
         }
 
         .gradient-background {
-            background: linear-gradient(300deg, #f88044, #ff9c08, #ffe246, #ffec88, #e6ff9e);
+            background: linear-gradient(300deg, #f3a27a, #f7aa7e, #fcc697, #fda775, #fca173);
             background-size: 240% 240%;
             animation: gradient-animation 4s ease infinite;
         }
@@ -92,10 +92,16 @@
             background-color: black;
             border-radius: 100%;
         }
+        .custom-font{
+            font-size: x-large;
+        }
     </style>
 </head>
 
 <body class = "text text-colour gradient-background">
+    <div class = "container">
+    <h1 class="text text-colour display-flex pb-2">MindMender</h1>
+    </div>
     <div class="container px-4 py-5" id="custom-cards">
         <h2 class="pb-2 border-bottom text text-colour">Services</h2>
 
@@ -104,31 +110,49 @@
 
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg gradient-background text text-colour">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text text-colour">No Fees for mental health treatment, only donations</h3>
+                    <div class="d-flex flex-column h-100 p-5  text-shadow-1">
+                        <figure class="figure">
+                            <img src="https://static.wixstatic.com/media/57dce1_5e78d64ac6354c7b999f5ad964afede6~mv2.png/v1/fill/w_925,h_520,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/57dce1_5e78d64ac6354c7b999f5ad964afede6~mv2.png" class="figure-img img-fluid rounded" alt="Donate">
+                          </figure>
+                        <h3 class="pt-5  mb-4 display-6 lh-1 fw-bold text text-colour display-flex align-items-center">No Fees for mental health treatment, only donations</h3>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg gradient-background text text-colour">
+                    <div class="d-flex flex-column h-100 p-5  text-shadow-1">
+                        <figure class="figure">
+                            <img src="https://static.wixstatic.com/media/57dce1_5a496b1459b94dfc97fc8fd3c5ffc56f~mv2.png/v1/fill/w_925,h_520,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/57dce1_5a496b1459b94dfc97fc8fd3c5ffc56f~mv2.png" class="figure-img img-fluid rounded" alt="Counsel">
+                          </figure>
+                        <h3 class="pt-5  mb-4 display-6 lh-1 fw-bold text text-colour display-flex align-items-center">Therapy sessions with practicing and professional therapists</h3>
+                        
                     </div>
                 </div>
             </div>
 
-        
 
             <div class="col">
                 <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg gradient-background text text-colour">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text text-colour">Therapy sessions with practicing and professional therapists</h3>
-                    </div>
-                </div>
-            </div>
-        
-
-            <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg gradient-background text text-colour">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold text text-colour">Email and Contact with your Counselor</h3>
+                    <div class="d-flex flex-column h-100 p-5  text-shadow-1">
+                        <figure class="figure">
+                            <img src="https://static.wixstatic.com/media/57dce1_380180a3bfbe464ca3a78b41d5ac6672~mv2.png/v1/fill/w_925,h_520,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/57dce1_380180a3bfbe464ca3a78b41d5ac6672~mv2.png" class="figure-img img-fluid rounded" alt="Communicate">
+                            
+                          </figure>
+                        <h3 class="pt-5  mb-4 display-6 lh-1 fw-bold text text-colour display-flex align-items-center">Email and Contact with your Counselor</h3>
+                        
                     </div>
                 </div>
             </div>
         </div>
+        
+    </div>
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            </ul>
+            <p class="text-center text-body-secondary text text-colour">© MindMender, 2024</p>
+        </footer>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
